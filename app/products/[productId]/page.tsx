@@ -1,8 +1,9 @@
 import React from 'react'
-
-const ProductDetails = () => {
+//every page in the app router receives product id as its prop
+//we can destructure it using params. the params object contain route parameter as key value pairs
+const ProductDetails = ({ params }) => {
   return (
-    <div>Details about product</div>
+    <h1>Details about product {params.productId}</h1>
   )
 }
 
