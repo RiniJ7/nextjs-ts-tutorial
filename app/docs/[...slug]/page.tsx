@@ -18,7 +18,7 @@ export default function Docs({
     // it means url contain 1 segment after 'docs'. here this segment features both features and concepts
     else if(params.slug.length === 1) {
         return <h1>
-            Viewing docs for feature {params.slug[0]} and concept {params.slug[0]}
+            Viewing docs for feature {params.slug[0]}
         </h1>
     }
     //if none of the above condition matches, it defaults to the documents home page
