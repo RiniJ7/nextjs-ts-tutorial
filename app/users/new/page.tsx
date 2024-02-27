@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const NewUserPage = () => {
+function NewUserPage() {
   return (
     <div>NewUserPage</div>
-  )
+  );
 }
 
-export default NewUserPage
+export default NewUserPage;
